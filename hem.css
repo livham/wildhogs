@@ -1,0 +1,72 @@
+:root {
+  --text-color: ;
+  --ljusast:#F3EEEA ;
+  --dark:#EBE3D5 ;
+  --darker:#B0A695 ;
+  --darkest:#776B5D ;
+}
+  
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-flow: column;
+  height:100vh ;
+  
+}
+
+.head{
+  display:flex;
+  align-items: center;
+  height:6rem ;
+  width: 100rem;
+  background:var(--darkest) ;
+  font:bold 4rem sans-serif ;
+  color:var(--ljusast) ;
+  text-indent:4rem ;
+}
+
+.klick{
+  height: 6rem;
+  background: var(--pink);
+  color: var(--clr-text);
+  height: 1.5rem;
+  background: var(--dark)
+}
+
+.main{
+  margin: 0.4rem 3rem;
+  padding: 2rem;
+  background: var(--darker);
+  border-radius:0.2rem;
+  font:1rem sans-serif;
+  flex-grow:4;
+  opacity:0.9;
+  background: url(https://media.istockphoto.com/id/176879345/photo/vietnamese-pot-bellied-pig.jpg?s=612x612&w=0&k=20&c=IZHnqHEAhDhrXhWJSZvTYK0YLUhZncsWh-vueUGte_M=);
+  
+}
+
+.main h1{
+  font: bold 1.2rem sans-serif;
+  color: var(--dark);
+}
+
+.main p{
+  font : 1.2rem sans-serif;
+  color: var(--darkest)
+}
+
+.klick a{
+  color: var(--darkest);
+  text-decoration: none;
+  font: bold 1rem sans-serif;
+}
+
+.klick a:hover{
+  filter: brightness(70%);
+  
+}
+

@@ -20,10 +20,10 @@ body{
 
 }
 
-.head{
+.header{
     display:flex;
     align-items: center;
-    height:6rem ;
+    height:8rem ;
     width: 100rem;
     background:var(--darkest) ;
     font:bold 4rem sans-serif ;
@@ -37,6 +37,16 @@ body{
     color: var(--clr-text);
     height: 1.5rem;
     background: var(--dark)
+  }
+  .klick a{
+    color: var(--darkest);
+    text-decoration: none;
+    font: bold 2rem sans-serif;
+  }
+  
+  .klick a:hover{
+    filter: brightness(70%);
+    
   }
   .main{
     margin: 0.4rem 3rem;

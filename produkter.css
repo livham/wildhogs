@@ -1,0 +1,54 @@
+:root{
+    --text-color: ;
+    --ljusast:#F3EEEA ;
+    --dark:#EBE3D5 ;
+    --darker:#B0A695 ;
+    --darkest:#776B5D ;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background:url(https://picsum.photos/id/28/367/267);
+}
+
+h1{
+    font:bold 5rem sans-serif;
+    color: var(--darkest);
+
+}
+
+.head{
+    display:flex;
+    align-items: center;
+    height:6rem ;
+    width: 100rem;
+    background:var(--darkest) ;
+    font:bold 4rem sans-serif ;
+    color:var(--ljusast) ;
+    text-indent:4rem ;
+  }
+  
+.klick{
+    height: 6rem;
+    background: var(--ljusast);
+    color: var(--darkest);
+    height: 2rem;
+    background: var(--dark)
+  }
+
+.klick a{
+    color: var(--darkest);
+    text-decoration: none;
+    font: bold 2rem sans-serif;
+  }
+
+.produkter{
+    display:flex;
+    background: var(--darker);
+    
+}

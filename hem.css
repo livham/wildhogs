@@ -40,7 +40,16 @@ body{
   background: var(--dark);
 
 }
+.klick a{
+  color: var(--darkest);
+  text-decoration: none;
+  font: bold 2rem sans-serif;
+}
 
+.klick a:hover{
+  filter: brightness(70%);
+  
+}
 .main{
   margin: 0.4rem 3rem;
   height:20vh;
@@ -62,14 +71,5 @@ body{
   color: var(--darkest)
 }
 
-.klick a{
-  color: var(--darkest);
-  text-decoration: none;
-  font: bold 2rem sans-serif;
-}
 
-.klick a:hover{
-  filter: brightness(70%);
-  
-}
 

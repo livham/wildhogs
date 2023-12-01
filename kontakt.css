@@ -1,0 +1,18 @@
+.head{
+    display:flex;
+    align-items: center;
+    height:6rem ;
+    width: 100rem;
+    background:var(--darkest) ;
+    font:bold 4rem sans-serif ;
+    color:var(--ljusast) ;
+    text-indent:4rem ;
+  }
+  
+  .klick{
+    height: 6rem;
+    background: var(--pink);
+    color: var(--clr-text);
+    height: 1.5rem;
+    background: var(--dark)
+  }
